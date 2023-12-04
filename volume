@@ -1,0 +1,11 @@
+public class volume {
+    public static void main(String[] args) {
+  
+        double raio = 2.0;
+        double pi = 3.0;
+
+        double volume = (4.0 / 3.0) * pi * (raio * raio * raio);
+
+        System.out.println("O volume da esfera é: " + volume);
+    }
+}
